@@ -69,14 +69,14 @@ export const LoginForm = () => {
                 render={({field})=> (
                   <FormItem>
                     <FormLabel>Email</FormLabel>
-                    <FormControl>
-                    <Input
-                      {...field}
-                      disabled={isPending}
-                      placeholder='roqeebakindele@gmail.com'
-                      type='email'
-                    />
-                    </FormControl>
+                      <FormControl>
+                        <Input
+                          {...field}
+                          disabled={isPending}
+                          placeholder='roqeebakindele@gmail.com'
+                          type='email'
+                        />
+                      </FormControl>
                     <FormMessage/>
                   </FormItem>
                 )}
